@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00E1249197C136400BFBB00 /* SCAddWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00E1248197C136400BFBB00 /* SCAddWordViewController.m */; };
+		B067591319739AF8002E8F5E /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B067591219739AF8002E8F5E /* MCSwipeTableViewCell.m */; };
+		B067591619739BE3002E8F5E /* SCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B067591519739BE3002E8F5E /* SCTableViewController.m */; };
+		B0831C4F19750109005F230A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0831C4E19750109005F230A /* Images.xcassets */; };
+		B0A6A0FA197C514800B7DA09 /* SCWordObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6A0F9197C514800B7DA09 /* SCWordObject.m */; };
 		B0DAF71F19736CC500719ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAF71E19736CC500719ED0 /* main.m */; };
 		B0DAF72219736CC500719ED0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAF72119736CC500719ED0 /* AppDelegate.m */; };
 		B0DAF72519736CC500719ED0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAF72419736CC500719ED0 /* ViewController.m */; };
 		B0DAF72819736CC500719ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DAF72619736CC500719ED0 /* Main.storyboard */; };
-		B0DAF72A19736CC500719ED0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DAF72919736CC500719ED0 /* Images.xcassets */; };
 		B0DAF73619736CC500719ED0 /* FlashListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAF73519736CC500719ED0 /* FlashListTests.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00E1247197C136400BFBB00 /* SCAddWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAddWordViewController.h; sourceTree = "<group>"; };
+		B00E1248197C136400BFBB00 /* SCAddWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAddWordViewController.m; sourceTree = "<group>"; };
+		B067591119739AF8002E8F5E /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		B067591219739AF8002E8F5E /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		B067591419739BE3002E8F5E /* SCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewController.h; sourceTree = "<group>"; };
+		B067591519739BE3002E8F5E /* SCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewController.m; sourceTree = "<group>"; };
+		B0831C4E19750109005F230A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0A6A0F8197C514800B7DA09 /* SCWordObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWordObject.h; sourceTree = "<group>"; };
+		B0A6A0F9197C514800B7DA09 /* SCWordObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWordObject.m; sourceTree = "<group>"; };
 		B0DAF71919736CC500719ED0 /* FlashList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DAF71D19736CC500719ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0DAF71E19736CC500719ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,7 +47,6 @@
 		B0DAF72319736CC500719ED0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0DAF72419736CC500719ED0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0DAF72719736CC500719ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0DAF72919736CC500719ED0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0DAF72F19736CC500719ED0 /* FlashListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DAF73419736CC500719ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0DAF73519736CC500719ED0 /* FlashListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashListTests.m; sourceTree = "<group>"; };
@@ -58,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B067591019739AF8002E8F5E /* MCSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B067591119739AF8002E8F5E /* MCSwipeTableViewCell.h */,
+				B067591219739AF8002E8F5E /* MCSwipeTableViewCell.m */,
+			);
+			path = MCSwipeTableViewCell;
+			sourceTree = "<group>";
+		};
 		B0DAF71019736CC500719ED0 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +105,14 @@
 				B0DAF72319736CC500719ED0 /* ViewController.h */,
 				B0DAF72419736CC500719ED0 /* ViewController.m */,
 				B0DAF72619736CC500719ED0 /* Main.storyboard */,
-				B0DAF72919736CC500719ED0 /* Images.xcassets */,
+				B00E1247197C136400BFBB00 /* SCAddWordViewController.h */,
+				B00E1248197C136400BFBB00 /* SCAddWordViewController.m */,
+				B067591419739BE3002E8F5E /* SCTableViewController.h */,
+				B067591519739BE3002E8F5E /* SCTableViewController.m */,
+				B0A6A0F8197C514800B7DA09 /* SCWordObject.h */,
+				B0A6A0F9197C514800B7DA09 /* SCWordObject.m */,
+				B0831C4E19750109005F230A /* Images.xcassets */,
+				B067591019739AF8002E8F5E /* MCSwipeTableViewCell */,
 				B0DAF71C19736CC500719ED0 /* Supporting Files */,
 			);
 			path = FlashList;
@@ -197,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0DAF72819736CC500719ED0 /* Main.storyboard in Resources */,
-				B0DAF72A19736CC500719ED0 /* Images.xcassets in Resources */,
+				B0831C4F19750109005F230A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00E1249197C136400BFBB00 /* SCAddWordViewController.m in Sources */,
+				B067591319739AF8002E8F5E /* MCSwipeTableViewCell.m in Sources */,
+				B0A6A0FA197C514800B7DA09 /* SCWordObject.m in Sources */,
 				B0DAF72519736CC500719ED0 /* ViewController.m in Sources */,
 				B0DAF72219736CC500719ED0 /* AppDelegate.m in Sources */,
 				B0DAF71F19736CC500719ED0 /* main.m in Sources */,
+				B067591619739BE3002E8F5E /* SCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -320,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -333,6 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FlashList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -344,6 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FlashList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +396,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FlashListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,6 +413,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FlashListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,6 +440,7 @@
 				B0DAF73B19736CC500719ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0DAF73C19736CC500719ED0 /* Build configuration list for PBXNativeTarget "FlashListTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +449,7 @@
 				B0DAF73E19736CC500719ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
